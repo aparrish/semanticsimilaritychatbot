@@ -1,0 +1,28 @@
+# dev stuff
+env
+*.py[cod]
+*.pyc
+*.swp
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+.eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+
+# bot dbs
+*.pkl
+*.annoy
+
+# macos garbage
+.DS_Store
