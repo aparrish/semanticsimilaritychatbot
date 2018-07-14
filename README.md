@@ -11,7 +11,7 @@ You can just cut and paste the code, if you want!
 
 Or you can install via `pip`:
 
-    pip install -e https://github.com/aparrish/semanticsimilaritychatbot/zipball/master
+    pip install https://github.com/aparrish/semanticsimilaritychatbot/archive/master.zip
 
 Other Python modules you'll need to have installed:
 
