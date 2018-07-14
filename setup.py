@@ -15,7 +15,8 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     install_requires=[
         'simpleneighbors',
-        'spacy'
+        'spacy',
+        'numpy'
     ],
     classifiers=(
         "Programming Language :: Python :: 3",
