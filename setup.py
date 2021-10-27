@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="semanticsimilaritychatbot",
-    version="0.0.1",
+    version="0.0.2",
     author="Allison Parrish",
     author_email="allison@decontextualize.com",
     description="A little chatbot based on semantic similarity",
@@ -14,7 +14,7 @@ setuptools.setup(
     url="https://github.com/aparrish/semanticsimilaritychatbot",
     packages=setuptools.find_packages(),
     install_requires=[
-        'simpleneighbors',
+        'simpleneighbors[annoy]',
         'spacy',
         'numpy'
     ],

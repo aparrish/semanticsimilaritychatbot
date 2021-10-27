@@ -26,7 +26,7 @@ class SemanticSimilarityChatbot:
     def vectorize(self, s):
         if s == "":
             s = " "
-        doc = self.nlp(s, disable=['tagger', 'parser'])
+        doc = self.nlp(s, disable=['tagger', 'parser', 'ner'])
         mean = np.mean(np.array([w.vector for w in doc]), axis=0)
         return mean
     
